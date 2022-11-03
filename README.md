@@ -1,2 +1,2 @@
-# a-blog
+# A blog
 A NextJS blog
