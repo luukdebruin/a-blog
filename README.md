@@ -1,2 +1,3 @@
-# A blog
-A NextJS blog
+## $⏉☈∈₳㎡ ℉ τΗ❍⊔𝙶𝚑㈦
+
+A NextJS Blog

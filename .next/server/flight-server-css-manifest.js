@@ -1,0 +1,1 @@
+self.__RSC_CSS_MANIFEST={"__entry_css__":{"/Users/luukdebruin/Projects/a-blog/app/page":["/Users/luukdebruin/Projects/a-blog/style/global.css"],"/Users/luukdebruin/Projects/a-blog/app/posts/[slug]/page":["/Users/luukdebruin/Projects/a-blog/style/global.css"]},"/Users/luukdebruin/Projects/a-blog/app/layout.tsx":["/Users/luukdebruin/Projects/a-blog/style/global.css"]}
