@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import '../style/global.css'
 
 export default function RootLayout({
@@ -14,9 +15,9 @@ export default function RootLayout({
       </head>
       <body className='flex flex-col px-4'>
         <header className='mb-8'>
-          <div className='container mx-auto bg-slate-50 py-8 px-4 rounded-b-lg flex justify-center'>
-            <h1 className='text-3xl text-slate-400'>$⏉☈∈₳㎡ ℉ τΗ❍⊔𝙶𝚑㈦</h1>
-          </div>
+          <Link href="/" className='container mx-auto py-8 px-4 rounded-b-lg flex justify-center'>
+            <h1 className='text-3xl text-slate-700'>$⏉☈∈₳㎡ ℉ τΗ❍⊔𝙶𝚑㈦</h1>
+          </Link>
         </header>
         <main className='py-4 flex-1'>
           <div className='container mx-auto'>
@@ -25,7 +26,7 @@ export default function RootLayout({
         </main>
         <footer className='mt-8 py-4'>
           <div className='container mx-auto flex justify-center'>
-            Made by Luke with NextJS
+            Made by Luke
           </div>
         </footer>
       </body>

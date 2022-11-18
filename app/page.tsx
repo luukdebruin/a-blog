@@ -20,12 +20,18 @@ async function getPosts() {
 
 export default async function Page() {
   const posts = await getPosts()
+  const filteredPosts = posts.sort((a,b) => {
+    const aDate: number = Date.parse(a.frontmatter.date)
+    const bDate: number = Date.parse(b.frontmatter.date)
+    return bDate - aDate
+    }
+  )
 
   return (
       <div>
-        {posts.map((post) => {
+        {filteredPosts.map((post) => {
           return (
-            <Frontmatter post={post}/>
+            <Frontmatter key={post.slug} post={post}/>
           )
         })}
       </div>
