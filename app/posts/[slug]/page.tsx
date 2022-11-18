@@ -107,12 +107,12 @@ export default async function PostPage({params}: any) {
           }
           {nextPost ? 
             <Link href={`posts/${nextPost.slug}`} className="flex-1 flex flex-col p-8 mr-1 bg-slate-100 hover:bg-slate-200 ease-in-out duration-300 cursor-pointer rounded-lg">
-              <p>Previous post</p>
+              <p>Next post</p>
               <h2 className='text-2xl font-bold text-slate-700'>{nextPost.frontmatter.title}</h2>
             </Link>
           : 
             <div className="flex-1 flex flex-col p-8 mr-1 bg-slate-100 rounded-lg opacity-50">
-              <p>Previous post</p>
+              <p>Next post</p>
               <h2 className='text-2xl font-bold text-slate-700'>No Next Post</h2>
             </div>
           }
